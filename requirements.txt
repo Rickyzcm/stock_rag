@@ -1,0 +1,26 @@
+# LLM & RAG
+langchain==0.1.13
+openai==1.3.9
+pydantic==2.5.0
+
+# 向量数据库
+pymilvus==2.3.6
+sentence-transformers==2.2.2
+
+# Web
+fastapi==0.109.0
+uvicorn==0.27.0
+pydantic-settings==2.1.0
+
+# 数据处理
+pandas==2.1.4
+numpy==1.24.3
+requests==2.31.0
+
+# 爬虫
+selenium==4.15.2
+beautifulsoup4==4.12.2
+
+# 其他
+python-dotenv==1.0.0
+redis==5.0.1
