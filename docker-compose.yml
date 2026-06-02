@@ -40,7 +40,7 @@ services:
       retries: 3
 
   milvus:
-    image: milvusdb/milvus:v0.3.9
+    image: milvusdb/milvus:v2.6.17
     container_name: milvus-standalone
     depends_on:
       etcd:

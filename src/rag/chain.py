@@ -2,6 +2,8 @@ from langchain.chat_models import ChatOpenAI
 from langchain.prompts import PromptTemplate
 from langchain.chains import RetrievalQA
 
+from src.rag.retriever import FinancialRetriever
+
 
 class FinancialRAGChain:
     """RAG 链路:检索 + LLM"""

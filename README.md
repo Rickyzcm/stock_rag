@@ -18,3 +18,8 @@ pip3 install -r requirements.txt
     |_ [vectorizer.py](src%2Fdata_pipeline%2Fvectorizer.py)向量化与知识库构建
 
 ```
+
+# 开发阶段遇到的问题
+```terminal
+Error response from daemon: failed to resolve reference "docker.io/milvusdb/milvus:v0.3.9": docker.io/milvusdb/milvus:v0.3.9: not found
+```
