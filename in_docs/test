@@ -1,0 +1,11 @@
+./node1/start.sh & ./node2/start.sh & ./node3/start.sh & ./node4/start.sh & wait
+
+遇到报错
+idea运行项目 command line too long，shorten the command line via JAR mainfest or via a classpath file and rerun
+
+
+exclusive 独占
+
+python3 -c "import torch; print(torch.__version__)"  ## 2.8.0
+python3 -c "import tensorflow as tf; print(tf.__version__)"  ## 2.20.0
+python3 -c "import flax; print(flax.__version__)"   ## 0.8.5
